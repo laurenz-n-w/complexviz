@@ -115,11 +115,11 @@ remotes::install_github("<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>")
 ```{r}
 library(complexviz)
 
-?plot_complex_multiplication(2+ 6i,2 +2i)
+plot_complex_multiplication(2+ 1i,2 -2i)
 
-?plot_complex_addition(3+2i, -8+1i)
+plot_complex_addition(3+2i, -8+1i)
 
-?plot_polar(3 -5i)
+plot_polar(3 -5i)
 
-?plot_unit_roots(16)
+plot_unit_roots(16)
 ```
