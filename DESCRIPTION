@@ -1,0 +1,16 @@
+Package: complexviz
+Title: Animated Visualizations of Complex Number Concepts
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Laurenz", family = "Wiesenberger", email = "laurenz.wiesenberger@gmail.com", role = c("aut", "cre")),
+    person(given = "Marta", family = "Diaz", email = "martadiazmartieng@gmail.com", role = "aut"))
+Description: This package provides animated visualizations of key concepts of complex numbers, including addition, multiplication, n-th roots of unity, and polar coordinates, using vector-based graphics with ggplot2 and gganimate.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    gganimate,
+    ggplot2,
+    gifski,
+    grid
