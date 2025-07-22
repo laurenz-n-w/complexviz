@@ -97,29 +97,37 @@ a)  Briefly describe in one - two sentences what your R package does and
     why you decided to choose this functionality. This is just intended
     to give us some context to better understand the package.
 
+    My R package complexviz offers animated visualizations of
+    fundamental complex number concepts like addition, multiplication,
+    polar coordinates, and roots of unity.
+
+    I picked this topic because I think seeing how complex numbers work
+    visually really helps to understand the math better.
+
 b)  To make installation easier, your R package should be in a public
     repository on GitHub. Provide the URL to the GitHub repository
     below:
 
-e.g. `https://github.com/<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>`
+    <https://github.com/laurenz-n-w/complexviz>
 
 c)  Your R package should be installable via
     `remotes::install_github()`. Before submitting your solution to this
     exercise sheet please test whether you can install your R package
     from GitHub. Provide the command below:
 
-``` r
-remotes::install_github("<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>")
-```
+    ```{r}
+    remotes::install_github("laurenz-n-w/complexviz")
+    ```
 
 ```{r}
+# some examples
 library(complexviz)
 
-plot_complex_multiplication(2+ 1i,2 -2i)
+plot_polar(2 + 3i)
 
 plot_complex_addition(3+2i, -8+1i)
 
-plot_polar(3 -5i)
+plot_complex_multiplication(2+ 1i,2 -2i)
 
 plot_unit_roots(16)
 ```
